@@ -1,0 +1,70 @@
+
+.projectPage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    position: absolute;
+    background-color: white;
+    width: 60%;
+    height: 2000px;
+    overflow-y: scroll;
+    margin-left: 30%;
+    margin-top: 5%;
+    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 3px 6px 9px rgba(0,0,.5,.5);
+}
+
+.menuContainer{
+    position: absolute;
+    height: 100%;
+    width: 20%;
+}
+
+.menuHeader{
+    font-size: 2.5em;
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    color: #CCC;
+    margin-left: 3vw;
+    margin-top: 5vh;
+    text-decoration: underline #9a0200;
+    text-shadow: 2px 2px #353839;
+}
+
+.menuOptions{
+    position: absolute;
+    margin-top: 20vh;
+    width: 100%;
+    height: 60%;
+}
+
+.rowContainer{
+    position: relative;
+    height: 7vh;
+}
+
+.row{
+    width: 100%;
+    height: 100%;
+    -webkit-transition: transform 1.05s ease-in-out;
+    -moz-transition:transform 1.05s ease-in-out;
+    -ms-transition:transform 1.05s ease-in-out;
+}
+
+.rowName{
+    font-size: 1.2em;
+    position: absolute;
+    padding: 0;
+    margin-left: 10%;
+}
+
+.backArrow{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}

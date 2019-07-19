@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/resume_website/static/css/main.8d4a4759.chunk.css",
+    "main.js": "/resume_website/static/js/main.3d482e21.chunk.js",
+    "main.js.map": "/resume_website/static/js/main.3d482e21.chunk.js.map",
+    "runtime~main.js": "/resume_website/static/js/runtime~main.90d1e55c.js",
+    "runtime~main.js.map": "/resume_website/static/js/runtime~main.90d1e55c.js.map",
+    "static/js/2.91d78364.chunk.js": "/resume_website/static/js/2.91d78364.chunk.js",
+    "static/js/2.91d78364.chunk.js.map": "/resume_website/static/js/2.91d78364.chunk.js.map",
+    "index.html": "/resume_website/index.html",
+    "precache-manifest.695a98cbd58ab66194e496ef68efc5c4.js": "/resume_website/precache-manifest.695a98cbd58ab66194e496ef68efc5c4.js",
+    "service-worker.js": "/resume_website/service-worker.js",
+    "static/css/main.8d4a4759.chunk.css.map": "/resume_website/static/css/main.8d4a4759.chunk.css.map",
+    "static/media/about_me.jpg": "/resume_website/static/media/about_me.d0725095.jpg",
+    "static/media/projects.jpg": "/resume_website/static/media/projects.73de3eac.jpg",
+    "static/media/resume.jpg": "/resume_website/static/media/resume.881f29e4.jpg"
+  }
+}
