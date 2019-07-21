@@ -1,7 +1,6 @@
 import React, {Component} from "react"
 import MenuRow from "./MenuRow";
 import {Spring} from "react-spring/renderprops-universal";
-import {Redirect} from "react-router-dom";
 
 
 class Menu extends Component{
@@ -13,16 +12,6 @@ class Menu extends Component{
         };
     }
 
-    setRedirect = () => {
-        this.setState({
-            redirect: true
-        })
-    };
-    renderRedirect = () => {
-        if (this.state.redirect) {
-            return <Redirect to={'/home'} />
-        }
-    };
 
     render() {
         return(
@@ -46,6 +35,28 @@ class Menu extends Component{
                     <MenuRow delay={2500}/>
                     <MenuRow delay={2600}/>
                 </div>
+
+            </div>
+        )
+    }
+}
+export default Menu;
+
+
+/*
+
+    setRedirect = () => {
+        this.setState({
+            redirect: true
+        })
+    };
+    renderRedirect = () => {
+        if (this.state.redirect) {
+            return <Redirect to={'/'} />
+        }
+    };
+
+
                 <svg onClick={ this.setRedirect }
                      className={"backArrow"}
                      width="8vw" height="8vh"
@@ -56,8 +67,5 @@ class Menu extends Component{
                     <path fill="#444b54" d="M71.5,82c-0.6,0-1.3-0.2-1.8-0.6l-20-15c-1.3-1-1.6-2.9-0.6-4.2s2.9-1.6,4.2-0.6l20,15c1.3,1,1.6,2.9,0.6,4.2C73.3,81.6,72.4,82,71.5,82z"></path>
                 </svg>
                 {this.renderRedirect()}
-            </div>
-        )
-    }
-}
-export default Menu;
+
+ */

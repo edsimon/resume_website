@@ -11,11 +11,11 @@ import ProjectPage from "./components/pageComponent/ProjectsPage";
 class App extends Component {
     render() {
         return(
-            <Router>
-                <Route exact path="/home" component={FrontPage}/>
-                <Route path="/home/about" component={AboutPage}/>
-                <Route path="/home/resume" component={ResumePage}/>
-                <Route path="/home/projects" component={ProjectPage}/>
+            <Router basename={"/resume_website"}>
+                <Route exact path="/" component={FrontPage}/>
+                <Route path="/about" component={AboutPage}/>
+                <Route path="/resume" component={ResumePage}/>
+                <Route path="/projects" component={ProjectPage}/>
             </Router>
         );
     }

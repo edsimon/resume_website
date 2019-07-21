@@ -10,7 +10,7 @@ var start = "0,0 70,0 60,40 50,60 40,100 0,100",
 class ProjectPage extends Component{
     constructor(props) {
         super(props);
-        this.props.history.push('/home');
+        this.props.history.push('/');
         this.props.history.push(this.props.match.url);
     }
 
@@ -18,7 +18,7 @@ class ProjectPage extends Component{
         return (
             <div className={"projectPage"}>
                 <Background start={start} end={end} delay={0}/>
-                <Menu header={"Projects"}/>
+                <Menu header={"Projects"} thisSite={"/projects"}/>
                 <ProjectContainer/>
 
             </div>

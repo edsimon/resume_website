@@ -38,9 +38,9 @@ class FrontPage extends Component{
                 <Background start={this.state.start} end={this.state.end} delay={this.state.delay}/>
                 <Header delay={this.state.delay + 1000}/>
                 <div className="linkCardContainer" style={style.linkCardContainer}>
-                    <LinkCard delay={this.state.delay + 1400} image={about} title={"about"} to={'/home/about'}/>
-                    <LinkCard delay={this.state.delay + 1600} image={projects} title={"projects"} to={'/home/projects'}/>
-                    <LinkCard delay={this.state.delay + 1800} image={resume} title={"resume"} to={'/home/resume'}/>
+                    <LinkCard delay={this.state.delay + 1400} image={about} title={"about"} to={'/about'}/>
+                    <LinkCard delay={this.state.delay + 1600} image={projects} title={"projects"} to={'/projects'}/>
+                    <LinkCard delay={this.state.delay + 1800} image={resume} title={"resume"} to={'/resume'}/>
                 </div>
             </div>
         );

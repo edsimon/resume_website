@@ -95,11 +95,57 @@ html, body, #root, .App{
 }
 
 
+.project{
+	position: relative;
+	margin: 5%;
+	padding-bottom: 10%;
+}
 
+.modalInfo{
+	width: 50%;
+}
 
+.modalImage{
+	position: absolute;
+	width: 45%;
+	right: 2%;
+	top: 5%;
+	-moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+	box-shadow: 2px 4px 6px rgba(0,0,0,.5);
+}
 
+.modalHeader{
+	font-size: 2em;
+	margin-left: 5%;
+	position: relative;
+}
 
+.modalInformation{
+	margin-left: 5%;
 
+}
+
+.modalLink{
+	position: relative;
+	text-decoration: none;
+	margin-left: 5%;
+	color: #7E7B7B;
+}
+
+.modalLine{
+	position: relative;
+	margin-left: 5%;
+	width: 90%;
+	float: left;
+}
+
+.resume{
+	position: absolute;
+	height: 96%;
+	margin-left: 35%;
+	margin-top: 1%;
+}
 
 
 
