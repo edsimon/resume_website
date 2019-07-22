@@ -110,10 +110,21 @@ html, body, #root, .App{
 
 
 /* ========= Projects ========== */
+.projectPage{
+	overflow: hidden;
+}
+
+.pinCont{
+	position: absolute;
+	overflow: scroll;
+	height: 100vh;
+	width: 80%;
+	right: 0;
+}
 .pintrestView{
-	width: 70%;
-	margin-left: 25%;
 	margin-top: 5%;
+	margin-right: 10%;
+	margin-left: 5%;
 }
 .projectContainer{
 	border: 0px solid;
@@ -168,14 +179,24 @@ html, body, #root, .App{
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+	margin-left: 27%;
 	height: 50px;
 }
-.projectButton{
-	width: 50%;
-	height: 100%;
-	border-radius: 15px;
-}
 
+.aws-btn {
+	--button-default-height: 40px;
+	--button-default-font-size: 20px;
+	--button-default-border-radius: 7px;
+	--button-horizontal-padding: 80px;
+	--button-raise-level: 20px;
+	--button-hover-pressure: 2;
+	--transform-speed: 0.2s;
+	--button-primary-color: rgba(154, 2, 0, 0.87);
+	--button-primary-color-dark: #353537;
+	--button-primary-color-light: #36373a;
+	--button-primary-color-hover: #386234;
+	--button-primary-border: none;
+}
 
 
 

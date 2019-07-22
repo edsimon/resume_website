@@ -11,25 +11,50 @@ class MenuRow extends Component{
             color: "#BBB",
             border: "0px solid",
             borderRadius: "5px",
-            transition: "background-color 0.5s ease"
+            transition: "background-color 0.5s ease",
+            clicked: false
         };
 
     }
 
     hover = () => {
-        this.setState({
-            hover: true,
-            backgroundColor: "#444",
-            color: "white",
-        });
+        if (!this.state.clicked) {
+            this.setState({
+                hover: true,
+                backgroundColor: "#444",
+                color: "white",
+            });
+        }
     };
     notHover = () => {
-        this.setState({
-            hover: true,
-            backgroundColor: "#222",
-            color: "#BBB",
-        });
+        if (!this.state.clicked) {
+            this.setState({
+                hover: true,
+                backgroundColor: "#222",
+                color: "#BBB",
+            });
+        }
     };
+
+    clicked = () => {
+        if (!this.state.clicked){
+            this.setState({
+                hover: true,
+                backgroundColor: "#444",
+                color: "white",
+                clicked: true
+            });
+        }
+        else{
+            this.setState({
+                hover: true,
+                backgroundColor: "#222",
+                color: "#BBB",
+                clicked: false
+            });
+        }
+        this.props.manageFilter(this.props.name)
+    }
 
 
 
@@ -43,6 +68,7 @@ class MenuRow extends Component{
                 {props => (
                     <div className="rowContainer" style={props}>
                         <div className="row"
+                             onClick={this.clicked}
                              onMouseOver ={this.hover}
                              onMouseLeave={this.notHover}
                              style={this.state}>

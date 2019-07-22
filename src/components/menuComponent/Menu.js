@@ -26,14 +26,21 @@ class Menu extends Component{
                         </h1>
                     )}
                 </Spring>
+                <Spring
+                    from={{opacity: 0}}
+                    to={{opacity: 1}}
+                    delay={1800}>
+                    {props => (
+                        <h2 style={props} className="menuFilter">
+                            Filter
+                        </h2>
+                    )}
+                </Spring>
                 <div className="menuOptions">
-                    <MenuRow name={"Java"} delay={2000}/>
-                    <MenuRow name={"Python"} delay={2100}/>
-                    <MenuRow name={"Machine learning"} delay={2200}/>
-                    <MenuRow name={"Application"} delay={2300}/>
-                    <MenuRow name={""} delay={2400}/>
-                    <MenuRow name={""} delay={2500}/>
-                    <MenuRow name={""} delay={2600}/>
+                    <MenuRow manageFilter={this.props.manageFilter} name={"Java"} delay={2000}/>
+                    <MenuRow manageFilter={this.props.manageFilter} name={"Python"} delay={2100}/>
+                    <MenuRow manageFilter={this.props.manageFilter} name={"Machine learning"} delay={2200}/>
+                    <MenuRow manageFilter={this.props.manageFilter} name={"Application"} delay={2300}/>
                 </div>
 
             </div>
