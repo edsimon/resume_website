@@ -2,7 +2,6 @@ import React, {Component} from "react"
 import cv from "../../assets/cv.jpg"
 import {Spring} from "react-spring/renderprops-universal";
 import * as easings from "d3-ease";
-import Menu from "../menuComponent/Menu";
 import Background from "../backgroundComponent/Background";
 
 var start = "0,0 70,0 60,40 50,60 40,100 0,100",
@@ -38,7 +37,8 @@ class ResumePage extends Component{
                     {props => (
                         <img className={"resume"}
                              style={props}
-                             src={cv}/>
+                             src={cv}
+                             alt={"resume"}/>
                     )}
                 </Spring>
             </div>

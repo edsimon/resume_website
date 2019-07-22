@@ -20,7 +20,6 @@ class FrontPage extends Component{
                 firstTime: true
             };
             instance = true;
-            console.log("first time")
         }
 
         else{

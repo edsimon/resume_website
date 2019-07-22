@@ -8,7 +8,6 @@ var start = "0,0 100,0 100,30 100,70 100,100, 0,100",
 class Background extends Component{
 	constructor(props){
 		super(props);
-		console.log(start)
 		this.state = {
 			clicked: false,
 			first: props.start,
@@ -18,7 +17,6 @@ class Background extends Component{
 	}
 
 	update(){
-		console.log("Updated");
 		if (!this.state.clicked){
 			this.setState({
 				clicked: true,
@@ -54,17 +52,12 @@ class Background extends Component{
 	}
 
 	render() {
-		console.log(this.state);
 		return(
 			<div className={"background"}>
 				{this.ani()}
 			</div>
 		);
 	}
-}
-
-const backgroundSVG = {
-	fill: "#222"
 }
 
 export default Background;

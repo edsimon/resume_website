@@ -4,14 +4,3 @@
     height: 100%;
 }
 
-.content{
-    position: absolute;
-    background-color: white;
-    width: 60%;
-    overflow-y: scroll;
-    margin-left: 30%;
-    margin-top: 5%;
-    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
-    -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
-    box-shadow: 3px 6px 9px rgba(0,0,.5,.5);
-}

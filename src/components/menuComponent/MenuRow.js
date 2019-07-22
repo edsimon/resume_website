@@ -46,7 +46,9 @@ class MenuRow extends Component{
                              onMouseOver ={this.hover}
                              onMouseLeave={this.notHover}
                              style={this.state}>
-                            <p className="rowName">Row 1</p>
+                            <p className="rowName">
+                                {this.props.name}
+                            </p>
                         </div>
                     </div>
                 )}

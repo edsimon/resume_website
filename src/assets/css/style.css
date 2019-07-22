@@ -3,7 +3,7 @@ html, body, #root, .App{
 	height: 100%;
 	padding: 0px;
 	margin: 0px;
-	overflow: hidden;
+	overflow-y: scroll;
 }
 
 
@@ -86,9 +86,6 @@ html, body, #root, .App{
 	height: 100%;
 }
 
-
-
-
 .aniHeader{
 	width: 100%;
 	height: 100%;
@@ -100,45 +97,9 @@ html, body, #root, .App{
 	margin: 5%;
 	padding-bottom: 10%;
 }
+/* New */
 
-.modalInfo{
-	width: 50%;
-}
 
-.modalImage{
-	position: absolute;
-	width: 45%;
-	right: 2%;
-	top: 5%;
-	-moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
-	-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
-	box-shadow: 2px 4px 6px rgba(0,0,0,.5);
-}
-
-.modalHeader{
-	font-size: 2em;
-	margin-left: 5%;
-	position: relative;
-}
-
-.modalInformation{
-	margin-left: 5%;
-
-}
-
-.modalLink{
-	position: relative;
-	text-decoration: none;
-	margin-left: 5%;
-	color: #7E7B7B;
-}
-
-.modalLine{
-	position: relative;
-	margin-left: 5%;
-	width: 90%;
-	float: left;
-}
 
 .resume{
 	position: absolute;
@@ -148,8 +109,72 @@ html, body, #root, .App{
 }
 
 
+/* ========= Projects ========== */
+.pintrestView{
+	width: 70%;
+	margin-left: 25%;
+	margin-top: 5%;
+}
+.projectContainer{
+	border: 0px solid;
+	border-radius: 5px;
+	background-color: #222;
+}
 
+.imageContainer{
+	overflow: hidden;
+	width: 98%;
+	margin: 0 auto;
+	padding-top: 1%;
+}
+.projectImage{
+	height: 100%;
+	display: block;
+}
+.projectHeaderContainer{
+	border-radius: 5px;
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background-color: rgb(57, 52, 61);
+}
+.projectHeader{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+	color: #cac6c6;
+}
+.projectLink{
+	text-decoration: none;
+	color: #222;
+}
+.projectInformation{
+	margin-top: 20%;
+	margin-left: 5%;
+	margin-right: 5%;
+	position: absolute;
+	top: 0;
+	color: #CCCCCC;
+}
+.projectLine{
+	position: absolute;
+	top: 45px;
+	width: 70%;
+	margin-left: 15%;
+}
 
+.projectButtons{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+}
+.projectButton{
+	width: 50%;
+	height: 100%;
+	border-radius: 15px;
+}
 
 
 
