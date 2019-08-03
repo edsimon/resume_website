@@ -1,30 +1,35 @@
-import React, {Component} from 'react';
-import { BrowserRouter as Router, Route} from "react-router-dom";
-import "./assets/css/style.css"
-import FrontPage from "./components/pageComponent/FrontPage";
-import AboutPage from "./components/pageComponent/AboutPage";
-import ResumePage from "./components/pageComponent/ResumePage";
-import ProjectPage from "./components/pageComponent/ProjectsPage";
+import React from 'react';
+import './assets/css/index.css';
+import SideBreak from "./components/SideBreak";
+import Knowledge from "./components/Knowledge"
+import Banner from "./components/Banner";
+import Projects from "./components/Projects";
+import Companies from "./components/Companies";
+import Resume from "./components/Resume";
+import Footer from "./components/Footer";
+import AboutMe from "./components/AboutMe";
+import Zoom from 'react-reveal/Zoom';
+import Fade from "react-reveal/Fade";
 
 
 
-class App extends Component {
-    render() {
-        return(
-            <Router basename={"/resume_website"}>
-                <Route exact path="/" component={FrontPage}/>
-                <Route path="/about" component={AboutPage}/>
-                <Route path="/resume" component={ResumePage}/>
-                <Route path="/projects" component={ProjectPage}/>
-            </Router>
-        );
-    }
+
+
+
+function App() {
+  return (
+    <div className="App">
+        <Banner/>
+        <SideBreak header={"Hi, I'm Simon. Nice to meet you!"} paragraph={"Since I first started programming four years ago I did't know it would result in my biggest passions. The deeper my knowledge got the more interested i got in the way machine can learn. Now i try to learn all i can about mathematics and the fundamentals of different machine learning algorithms."}/>
+        <Fade bottom><Knowledge/></Fade>
+        <Fade><Projects/></Fade>
+        <Fade><Companies/></Fade>
+        <SideBreak header={"This is my history"} paragraph={"Since I started studies towards computer science i accomplished a lot. Interests have grown and some others faded. But some all in all I have learned that it is always a pleasure to work with coding of any kind!"}/>
+        <Fade bottom><Resume/></Fade>
+        <AboutMe/>
+        <Footer/>
+    </div>
+  );
 }
 
 export default App;
-
-/*
-<Background ref={instance => { this.Background = instance}}/>
-<button onClick={() => { this.Background.update()}}>START</button>
-
-*/

@@ -20,10 +20,14 @@
     "react-native": "^0.60.4",
     "react-pdf": "^4.1.0",
     "react-pose": "^4.0.8",
+    "react-reveal": "^1.2.2",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
+    "react-service-worker": "^0.1.1",
     "react-spring": "^8.0.27",
-    "react-stack-grid": "^0.7.1"
+    "react-stack-grid": "^0.7.1",
+    "react-typist": "^2.0.5",
+    "uglify-js": "^3.6.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -47,5 +51,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "less": "^3.9.0"
   }
 }
