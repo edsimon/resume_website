@@ -3,17 +3,19 @@ import StackGrid from "react-stack-grid";
 import Project from "./Project";
 import twitter from "../assets/img/twitter.jpg";
 import fingertime from "../assets/img/fingerTime.jpg";
+import FilterButton from "./FilterButton"
 
 class Projects extends Component {
     constructor(props){
         super(props);
         this.state = {
             show: false,
-            button: "See all",
+            button: "Show all",
             filterSet : new Set(["Java","Python","Machine learning","Application","Swift"]),
             haveFilter : false,
             allItems : ["Java","Python","Machine learning","Application","Swift"]
         }
+        this.manageFilter = this.manageFilter.bind(this)
     }
 
     render() {
@@ -24,11 +26,11 @@ class Projects extends Component {
                     Things i'm proud of, use filter to choose language or field
                 </p>
                 <div className="filterProjects">
-                    <button onClick={ () => this.manageFilter("Java")} className="filterButton">Java</button>
-                    <button className="filterButton">Python</button>
-                    <button className="filterButton">IOS</button>
-                    <button className="filterButton">Machine Learning</button>
-                    <button className="filterButton">Kaggle</button>
+                    {this.state.show ? <FilterButton text={"Java"} filter={this.manageFilter}/> : null}
+                    {this.state.show ? <FilterButton text={"Python"} filter={this.manageFilter}/> : null}
+                    {this.state.show ? <FilterButton text={"Application"} filter={this.manageFilter}/> : null}
+                    {this.state.show ? <FilterButton text={"Machine learning"} filter={this.manageFilter}/> : null}
+                    {this.state.show ? <FilterButton text={"Swift"} filter={this.manageFilter}/> : null}
                     <button className="seeAll filterButton" onClick={ this.showProjects }>{this.state.button}</button>
                 </div>
                 {this.getComponents(this.state.filterSet)}
@@ -48,7 +50,7 @@ class Projects extends Component {
         else{
             this.setState({
                 show: false,
-                button: "See all"
+                button: "Show all"
             })
         }
     }

@@ -79,7 +79,7 @@ class Project extends Component{
                             config={{duration: this.state.delay}}>
                             {props => (
                                 <svg className="projectLine" viewBox="0 0 100 1">
-                                    <line x1="0" y1="0" x2="100" y2="00" stroke="#9a0200" strokeWidth="2px" strokeDasharray={100} strokeDashoffset={props.x}/>
+                                    <line x1="0" y1="0" x2="100" y2="00" stroke="#af651b" strokeWidth="2px" strokeDasharray={100} strokeDashoffset={props.x}/>
                                 </svg>
                             )}
                         </Spring>

@@ -11,9 +11,6 @@ class Footer extends Component {
                     <h1 className="introduction introHeader">
 
                     </h1>
-                    <p className={"introduction introInfo"}>
-                        Placeholder text
-                    </p>
                     <div className="iconButtons">
                         <img className={"iconButton"} src={github} alt="github"/>
                         <img className={"iconButton"} src={linkedin} alt="linkedIn"/>
