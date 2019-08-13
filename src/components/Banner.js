@@ -43,27 +43,6 @@ class Banner extends Component {
         return (
             <div className="banner">
                 <Clouds/>
-                <Fade top>
-                        <div style={{height: this.state.height, width: this.state.width}} className="sayHi" onClick={this.sayHi}>
-                            {this.state.showForm ?
-                                <form className={"formMail"} method="POST">
-                                    <button className={"buttonMail"} onClick={ () => this.sayHi}> X</button>
-                                    <div className="infoMail">
-                                        <label className="nameMail">Name:</label>
-                                        <input type="textMail" name="name"/>
-
-                                        <label className="emailMail">Email:</label>
-                                        <input type="email" name="email"/>
-                                    </div>
-                                    <label className="message">Message</label>
-                                    <textarea className={"messageMail"} name="message" rows="3"></textarea>
-
-                                    <input type="submit"/>
-                                </form>
-                                : "Say Hi!"
-                            }
-                    </div>
-                </Fade>
                 <h1 className={"bannerHeader"}>
                     Student of Computer Science
                 </h1>
@@ -150,3 +129,28 @@ const svgMountain =
     </svg>
 
 export default Banner;
+
+
+/*
+<Fade top>
+                        <div style={{height: this.state.height, width: this.state.width}} className="sayHi" onClick={this.sayHi}>
+                            {this.state.showForm ?
+                                <form className={"formMail"} method="POST">
+                                    <button className={"buttonMail"} onClick={ () => this.sayHi}> X</button>
+                                    <div className="infoMail">
+                                        <label className="nameMail">Name:</label>
+                                        <input type="textMail" name="name"/>
+
+                                        <label className="emailMail">Email:</label>
+                                        <input type="email" name="email"/>
+                                    </div>
+                                    <label className="message">Message</label>
+                                    <textarea className={"messageMail"} name="message" rows="3"></textarea>
+
+                                    <input type="submit"/>
+                                </form>
+                                : "Say Hi!"
+                            }
+                    </div>
+                </Fade>
+ */

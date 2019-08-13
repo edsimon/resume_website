@@ -57,7 +57,7 @@ body{
     width: 10vw;
     height: 7vh;
     right: 8%;
-    color: #854A0F;
+    color: #de7f09;
     border: #de7f09 2px solid;
     border-radius: 20px;
     font-size: 1.3em;
@@ -82,13 +82,22 @@ body{
     height: 50%;
     padding-top: 8vh;
 }
+.introFooter{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    height: 50%;
+    padding-top: 8vh;
+}
 
 .introduction{
-    color: #0A0A0A;
+    color: whitesmoke;
     font-family: "Lucida Grande";
     line-height: 1.5em;
 }
+.introHeader{
 
+}
 .introInfo{
     font-size: 1em;
 }
@@ -137,7 +146,7 @@ body{
     fill: #de7f09;
 }
 .infoSecond{
-    color: #854A0F;
+    color: #de7f09;
     font-weight: bold;
     padding: 0;
     margin: 0;
@@ -183,7 +192,7 @@ body{
     background-color: #e7d8db;
     width: 15vw;
     height: 7vh;
-    color: #854A0F;
+    color: #de7f09;
     font-size: 1.5em;
     margin-top: 5vh;
     border: #de7f09 1px solid;
@@ -424,84 +433,6 @@ body{
 }
 
 
-
-
-
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
-    .sayHi{
-    position: absolute;
-    width: 30vw;
-    height: 7vh;
-    right: 8%;
-    margin-top: 1vh;
-    color: #854A0F;
-    border: #de7f09 2px solid;
-    border-radius: 20px;
-    font-size: 1.3em;
-}
-    .avatar{
-    width: 40vh;
-
-}
-    .intro{
-    position: absolute;
-    margin-left: 10%;
-    padding-top: 10vh;
-    width: 80%;
-    height: 50vh;
-    overflow: hidden;
-}
-    .info{
-    display: block;
-    position: relative;
-    width: 100%;
-    border-bottom: #c3c3c3 1px solid;
-    height: 50%;
-}
-    .infoContainer{
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-    margin-top: -20vh;
-    border-radius: 30px;
-    background-color: white;
-    box-shadow: 1px 1px 1px #a2a2a2;
-}
-    .infoHeader{
-    height: 80vh;
-}
-
-    .companies{
-    margin-top: 30%;
-}
-.bannerHeader{
-    font-size: 3em;
-    padding-top: 8vh;
-    font-family: "Lucida Grande";
-    font-weight: bolder;
-
-}
-
-    .bannerInfo{
-    font-size: 1em;
-    width: 80%;
-    margin-left: 10%;
-}
-
-    .introHeader{
-    font-size: 1.5em;
-}
-    .introInfo{
-
-    font-size: 0.9em;
-}
-    .seeAll{
-    position: relative;
-    }
-}
-
-
 /* =========================== */
 .cloudscontainer{
     position: absolute;
@@ -562,19 +493,22 @@ body{
 
 .aboutMe{
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     background-color: #fa9026;
     color: #222222;
+    margin-top: 30vh;
 }
 
 .imageOfMe{
-    margin-top: 25vh;
-    margin-left: 10vw;
+    margin-top: 30vh;
+    margin-left: -17vh;
     width: 30vh;
     height: 30vh;
     overflow: hidden;
     border-radius: 50%;
     float: left;
+    border: 15px solid #222;
+    background-color: #222;
 }
 .image{
     height: auto;
@@ -583,23 +517,214 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+
 .aboutBackground{
-    width: 85vw;
-    height: 70vh;
-    margin-left: 10vh;
-    margin-top: 15vh;
-    border-radius: 40vw 10% 10% 40vw;
-    background-color: whitesmoke;
+    background-color: #222;
+    float: left;
+    height: 100%;
+    width: 30vw;
+    -webkit-box-shadow: 5px 0px 5px 5px rgba(34,34,34,1);
+    -moz-box-shadow: 5px 0px 5px 5px rgba(34,34,34,1);
+    box-shadow: 5px 0px 5px 5px rgba(34,34,34,1);
 }
 .aboutContainer{
+    margin-left: 5vh;
+    color: whitesmoke;
     width: 50vw;
-    height: 60%;
-    margin-left: 40vh;
-    box-sizing: border-box;
+    float: left;
+    height: 100%;
 }
 .aboutHeader{
+    display: inline-block;
 
 }
 .aboutInfo{
+    display: inline-block;
     font-size: 1.2em;
 }
+
+.test{
+    width: 50vw;
+    margin-top: 15vw;
+}
+
+.bye{
+    height: 30vh;
+    width: 100vw;
+    color: #222222;
+}
+
+.byeInfo{
+    margin-top: 30vh;
+    text-align: center;
+}
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .sayHi{
+        position: absolute;
+        width: 30vw;
+        height: 7vh;
+        right: 8%;
+        margin-top: 1vh;
+        color: #de7f09;
+        border: #de7f09 2px solid;
+        border-radius: 20px;
+        font-size: 1.3em;
+    }
+    .avatar{
+        width: 40vh;
+
+    }
+    .intro{
+        position: absolute;
+        margin-left: 10%;
+        padding-top: 10vh;
+        width: 80%;
+        height: 50vh;
+        overflow: hidden;
+    }
+    .info{
+        display: block;
+        position: relative;
+        width: 100%;
+        border-bottom: #c3c3c3 1px solid;
+        height: 50%;
+    }
+    .infoContainer{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        margin-top: -20vh;
+        border-radius: 30px;
+        background-color: white;
+        box-shadow: 1px 1px 1px #a2a2a2;
+    }
+    .infoHeader{
+        height: 80vh;
+    }
+
+    .companies{
+        margin-top: 30%;
+    }
+    .bannerHeader{
+        font-size: 3em;
+        padding-top: 8vh;
+        font-family: "Lucida Grande";
+        font-weight: bolder;
+
+    }
+
+    .bannerInfo{
+        font-size: 1em;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .introHeader{
+        font-size: 1.5em;
+    }
+    .introInfo{
+
+        font-size: 0.9em;
+    }
+    .seeAll{
+        position: relative;
+    }
+
+
+    .aboutMe{
+        width: 100%;
+        height: 120vh;
+        background-color: #fa9026;
+        color: #222222;
+        margin-top: 30vh;
+    }
+
+    .imageOfMe{
+        margin: -17vh auto 0;
+        width: 30vh;
+        height: 30vh;
+        overflow: hidden;
+        border-radius: 50%;
+        float: none;
+        border: 15px solid #222;
+        background-color: #222;
+    }
+    .image{
+        height: auto;
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .aboutBackground{
+        background-color: #222;
+        margin-bottom: -17vh;
+        height: 30vh;
+        width: 100%;
+        -webkit-box-shadow: 5px 0px 5px 5px rgba(34,34,34,1);
+        -moz-box-shadow: 5px 0px 5px 5px rgba(34,34,34,1);
+        box-shadow: 5px 0px 5px 5px rgba(34,34,34,1);
+    }
+    .aboutContainer{
+        margin-left: 5vh;
+        color: whitesmoke;
+        width: 50vw;
+        float: left;
+        height: 100%;
+    }
+    .aboutHeader{
+        display: inline-block;
+
+    }
+    .aboutInfo{
+        display: inline-block;
+        font-size: 1em;
+    }
+
+    .test{
+        width: 80vw;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 15vw;
+    }
+
+    .iconButtons{
+        display: inline-block;
+        margin-left: 0;
+        width: 100vw;
+        height: 20vh;
+    }
+    .iconButton{
+        width: 20%;
+        margin: 2%;
+    }
+    .iconButton:hover{
+        transform: scale(1.2);
+    }
+    .introFooter{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        padding-top: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

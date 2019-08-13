@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
 import Zoom from 'react-reveal/Zoom';
 import Fade from "react-reveal/Fade";
+import GoodBye from "./components/GoodBye";
 
 
 
@@ -27,6 +28,7 @@ function App() {
         <SideBreak header={"This is my history"} paragraph={"Since I started studies towards computer science i accomplished a lot. Interests have grown and some others faded. But some all in all I have learned that it is always a pleasure to work with coding of any kind!"}/>
         <Fade bottom><Resume/></Fade>
         <AboutMe/>
+        <GoodBye/>
         <Footer/>
     </div>
   );

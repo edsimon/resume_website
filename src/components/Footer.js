@@ -7,14 +7,21 @@ class Footer extends Component {
     render() {
         return (
             <div className="footer">
-                <div className="intro">
+                <div className="introFooter">
                     <h1 className="introduction introHeader">
-
+                        Bye!
                     </h1>
                     <div className="iconButtons">
-                        <img className={"iconButton"} src={github} alt="github"/>
-                        <img className={"iconButton"} src={linkedin} alt="linkedIn"/>
-                        <img className={"iconButton"} src={facebook} alt="facebook"/>
+                        <a href="https://github.com/edsimon" className="iconButton">
+                            <img style={{width: "100%", height: "100%"}} src={github} alt="github"/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/simon-edvardsson-857536153/" className="iconButton">
+                            <img style={{width: "100%", height: "100%"}} src={linkedin} alt="linkedIn"/>
+                        </a>
+                        <a href="https://www.facebook.com/sursimon" className="iconButton">
+                            <img style={{width: "100%", height: "100%"}} src={facebook} alt="facebook"/>
+                        </a>
+
                     </div>
                 </div>
             </div>
