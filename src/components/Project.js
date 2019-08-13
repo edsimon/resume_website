@@ -83,7 +83,6 @@ class Project extends Component{
                                 </svg>
                             )}
                         </Spring>
-
                     </div>
                     )}
             </Spring>

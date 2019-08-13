@@ -281,6 +281,9 @@ body{
 .projectImage{
     height: 100%;
     display: block;
+    margin: 0 50%;
+    vertical-align: middle;
+    transform: translate(-50%);
 }
 .projectHeaderContainer{
     border-radius: 5px;
