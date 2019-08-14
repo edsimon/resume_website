@@ -26,13 +26,13 @@ There is still a loot of things to do before this project is fully finished.
  
 - [X] Get a lot of information uploaded
 - [ ] Create a better about me component
--[ ] Make components more readable
--[ ] Use sass or less instead of css
--[ ] Get a good score on google Audit test
--[ ] Update the project page
--[ ] Make some small animations
--[ ] Understand service worker
--[ ] Take a new photo of me
+- [ ] Make components more readable
+- [ ] Use sass or less instead of css
+- [ ] Get a good score on google Audit test
+- [ ] Update the project page
+- [ ] Make some small animations
+- [ ] Understand service worker
+- [ ] Take a new photo of me
 
 
 --- 
