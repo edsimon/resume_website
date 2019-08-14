@@ -1,68 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot](./src/assets/img/Simon-Edvardsson-resume-website.jpg) 
+---
+## Intro    
+This is my personal website mainly for showcasing my projects and other information. 
+You can see the live demo on [Simons Resume Website](https://edsimon.github.io/resume_website/)
 
-## Available Scripts
+---
+#### Purpose 
+This is my side project i scrambled together to first of all have a website that i can specialise to my needs and to
+learn the noble craft of web development. I have done a website using pure html/css/js but i wanted to learn some of the 
+more modern types of coding. So i started the project with [React](https://reactjs.org/). Learned a lot about how 
+everything goes together to finally start my own project. 
 
-In the project directory, you can run:
+---
+#### How i did it
+So to start simple, React is a framework to javascript where you can create components, these components are built up
+with JSX which is classes or functions that return some HTML code in return. This makes it possible to create your own 
+HTML tag. The two main feature of coding like this is code reusability and code that is easy to read and navigate. 
 
-### `npm start`
+First of i have the function index.js that is the main component. It pretty much only calls the App.js function.
+This App.js contain the blueprint of the website, here you can easily read each component and its place on the website.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
+#### Things to work with
+There is still a loot of things to do before this project is fully finished.
+ 
+-[X] Get a lot of information uploaded
+-[ ] Create a better about me component
+-[ ] Make components more readable
+-[ ] Use sass or less instead of css
+-[ ] Get a good score on google Audit test
+-[ ] Update the project page
+-[ ] Make some small animations
+-[ ] Understand service worker
+-[ ] Take a new photo of me
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
-### `npm test`
+--- 
+####Libraries used
+* React
+* Spring
+* Router
+* Reveal
+* Stack Grid
+* d3 
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

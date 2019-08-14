@@ -1,23 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60b2fb9ab2a71080b73ee7955804a861",
+    "revision": "a17bef6ea00e3406747c781760546a5c",
     "url": "/resume_website/index.html"
   },
   {
-    "revision": "0e413100b06c93971cf4",
-    "url": "/resume_website/static/css/main.dabc0a80.chunk.css"
+    "revision": "8de008176934934bb234",
+    "url": "/resume_website/static/css/main.3be4e79b.chunk.css"
   },
   {
-    "revision": "51b931b602c9357a0b9c",
-    "url": "/resume_website/static/js/2.c4efa37a.chunk.js"
+    "revision": "0b396e7ecffcf1ed70a1",
+    "url": "/resume_website/static/js/2.3b4d26aa.chunk.js"
   },
   {
-    "revision": "0e413100b06c93971cf4",
-    "url": "/resume_website/static/js/main.df27d931.chunk.js"
+    "revision": "8de008176934934bb234",
+    "url": "/resume_website/static/js/main.041a1b7f.chunk.js"
   },
   {
     "revision": "e0bcb03a30fc9ae158d7",
     "url": "/resume_website/static/js/runtime~main.90d1e55c.js"
+  },
+  {
+    "revision": "54c371eb938d9a13f97b5d300b2dba2e",
+    "url": "/resume_website/static/media/Simon-Edvardsson-resume-website.54c371eb.jpg"
+  },
+  {
+    "revision": "10d855b5f219253280a0826939671352",
+    "url": "/resume_website/static/media/Simon-Edvardsson-website-tester.10d855b5.jpg"
   },
   {
     "revision": "ff63179c0ffe8f1ec778c9ca7fd6ed8b",
