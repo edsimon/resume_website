@@ -25,7 +25,6 @@ This App.js contain the blueprint of the website, here you can easily read each 
 There is still a loot of things to do before this project is fully finished.
  
 - [X] Get a lot of information uploaded
-
 - [ ] Create a better about me component
 -[ ] Make components more readable
 -[ ] Use sass or less instead of css
