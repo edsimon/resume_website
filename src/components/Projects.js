@@ -135,8 +135,8 @@ class Projects extends Component {
                             image={resume}/> : null}
 
                         { set.has("Website") || set.has("React") ? <Project
-                            height={"300px"}
-                            totHeight={"350px"}
+                            height={"200px"}
+                            totHeight={"250px"}
                             link={"https://github.com/edsimon/website_multiscreen_view"}
                             header={"Resolution Tester"}
                             modalInfo={"Created a resolution tester for simplifying my work on my main website"}
