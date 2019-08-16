@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a47b4b8b-aa40-488a-a934-adbd0ec4f074" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/CNAME">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -214,8 +212,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.start" />
         <item itemvalue="Node.js.index.js" />
         <item itemvalue="npm.predeploy" />
       </list>
@@ -239,12 +237,12 @@
       <workItem from="1564819713184" duration="21327000" />
       <workItem from="1565350028913" duration="6658000" />
       <workItem from="1565483973699" duration="7405000" />
-      <workItem from="1565702363896" duration="6143000" />
+      <workItem from="1565702363896" duration="6368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96383000" />
+    <option name="totallyTimeSpent" value="96608000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -572,7 +570,7 @@
     <entry file="file://$PROJECT_DIR$/CNAME">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
