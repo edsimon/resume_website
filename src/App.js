@@ -8,7 +8,6 @@ import Companies from "./components/Companies";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
-import Zoom from 'react-reveal/Zoom';
 import Fade from "react-reveal/Fade";
 import GoodBye from "./components/GoodBye";
 
