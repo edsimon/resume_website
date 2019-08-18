@@ -6,6 +6,7 @@ import fingertime from "../assets/img/fingerTime.jpg";
 import FilterButton from "./FilterButton";
 import resume from "../assets/img/Simon-Edvardsson-resume-website.jpg"
 import screenTester from "../assets/img/Simon-Edvardsson-website-tester.jpg"
+import cartPole from "../assets/img/cartPole.jpg"
 
 class Projects extends Component {
     constructor(props){
@@ -141,6 +142,15 @@ class Projects extends Component {
                             header={"Resolution Tester"}
                             modalInfo={"Created a resolution tester for simplifying my work on my main website"}
                             image={screenTester}/> : null}
+                        { set.has("Machine learning") || set.has("Python") ? <Project
+                            height={"200px"}
+                            totHeight={"250px"}
+                            link={"https://github.com/edsimon/openAI_cartPole"}
+                            header={"OpenAI cartPole"}
+                            modalInfo={"Machine learning project that uses a deep neural network to learn how to" +
+                                        "balance a pole on a cart."}
+                            image={cartPole}/> : null}
+
                     </StackGrid>
                 </div>
             )
