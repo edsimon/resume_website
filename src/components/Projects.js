@@ -7,6 +7,7 @@ import FilterButton from "./FilterButton";
 import resume from "../assets/img/Simon-Edvardsson-resume-website.jpg"
 import screenTester from "../assets/img/Simon-Edvardsson-website-tester.jpg"
 import cartPole from "../assets/img/cartPole.jpg"
+import mountainCart from "../assets/img/mountainCart.jpg"
 
 class Projects extends Component {
     constructor(props){
@@ -14,9 +15,9 @@ class Projects extends Component {
         this.state = {
             show: false,
             button: "Show all",
-            filterSet : new Set(["Java","Python","Machine learning","Application","Swift","Website", "React"]),
+            filterSet : new Set(["Java","Python","Machine learning","Application","Swift","Website", "React", "openAi"]),
             haveFilter : false,
-            allItems : ["Java","Python","Machine learning","Application","Swift", "Website", "React"]
+            allItems : ["Java","Python","Machine learning","Application","Swift", "Website", "React", "openAi"]
         }
         this.manageFilter = this.manageFilter.bind(this)
     }
@@ -29,13 +30,14 @@ class Projects extends Component {
                     Things i'm proud of, use filter to choose language or field
                 </p>
                 <div className="filterProjects">
-                    {this.state.show ? <FilterButton text={"Java"} filter={this.manageFilter}/> : null}
                     {this.state.show ? <FilterButton text={"Python"} filter={this.manageFilter}/> : null}
+                    {this.state.show ? <FilterButton text={"Swift"} filter={this.manageFilter}/> : null}
+                    {this.state.show ? <FilterButton text={"Java"} filter={this.manageFilter}/> : null}
                     {this.state.show ? <FilterButton text={"Application"} filter={this.manageFilter}/> : null}
                     {this.state.show ? <FilterButton text={"Machine learning"} filter={this.manageFilter}/> : null}
-                    {this.state.show ? <FilterButton text={"Swift"} filter={this.manageFilter}/> : null}
                     {this.state.show ? <FilterButton text={"Website"} filter={this.manageFilter}/> : null}
                     {this.state.show ? <FilterButton text={"React"} filter={this.manageFilter}/> : null}
+                    {this.state.show ? <FilterButton text={"openAi"} filter={this.manageFilter}/> : null}
                     <button className="seeAll filterButton" onClick={ this.showProjects }>{this.state.button}</button>
                 </div>
                 {this.getComponents(this.state.filterSet)}
@@ -113,7 +115,7 @@ class Projects extends Component {
                         gridRef={grid => this.grid = grid}
                     >
 
-                        { set.has("Java") ? <Project
+                        { set.has("Python") || set.has("Machine learning") ? <Project
                             height={"300px"}
                             link={"https://github.com/edsimon/TwitterStreams-sentimental-value-live-plotted-on-map"}
                             header={"Twitter streams"}
@@ -142,15 +144,24 @@ class Projects extends Component {
                             header={"Resolution Tester"}
                             modalInfo={"Created a resolution tester for simplifying my work on my main website"}
                             image={screenTester}/> : null}
-                        { set.has("Machine learning") || set.has("Python") ? <Project
-                            height={"200px"}
-                            totHeight={"250px"}
+
+                        { set.has("Machine learning") || set.has("Python") || set.has("openAi") ? <Project
+                            height={"250px"}
+                            totHeight={"300px"}
                             link={"https://github.com/edsimon/openAI_cartPole"}
                             header={"OpenAI cartPole"}
                             modalInfo={"Machine learning project that uses a deep neural network to learn how to" +
                                         "balance a pole on a cart."}
                             image={cartPole}/> : null}
 
+                        { set.has("Machine learning") || set.has("Python") || set.has("openAi") ? <Project
+                            height={"200px"}
+                            totHeight={"250px"}
+                            link={"https://github.com/edsimon/openAI_cartPole"}
+                            header={"OpenAI mountainCart"}
+                            modalInfo={"Used the famous Q-learning algorithm to solve this problem. Really effective " +
+                                        "solution with only 100 episodes to complete"}
+                            image={mountainCart}/> : null}
                     </StackGrid>
                 </div>
             )

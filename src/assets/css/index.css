@@ -235,7 +235,7 @@ body{
 }
 
 .filterProjects{
-    width: 100%;
+    width: 80%;
     display: block;
     margin: 0 auto;
 }
@@ -244,7 +244,7 @@ body{
 .filterButton{
     height: 36px;
     border-radius: 15px;
-    margin: 1%;
+    margin: 0.4%;
     background-color: #e7e7e7;
     text-decoration: none;
     -moz-box-shadow: 1px 1px 1px rgba(0,0,0,.5);
