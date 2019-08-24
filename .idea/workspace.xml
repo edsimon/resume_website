@@ -4,15 +4,14 @@
     <list default="true" id="a47b4b8b-aa40-488a-a934-adbd0ec4f074" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/precache-manifest.bd5cb4a3e34badc05cfaa69388a25c12.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.0b29212f32855754a0f4f0491b9ac10b.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.3be4e79b.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.3be4e79b.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.729baec2.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.729baec2.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.ca84df91.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.ca84df91.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.c43c91bd.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.c43c91bd.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.5137f53f.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.5137f53f.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.12147803.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.12147803.chunk.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -38,14 +37,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Projects.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            <state relative-caret-position="3192">
+              <caret line="152" column="116" lean-forward="true" selection-start-line="152" selection-start-column="116" selection-end-line="152" selection-end-column="116" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package-lock.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="39" selection-start-column="39" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -151,23 +159,6 @@
               <item name="resume_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="resume_website" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="resume_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resume_website" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="resume_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resume_website" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="resume_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="resume_website" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -242,9 +233,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
         <item itemvalue="npm.predeploy" />
+        <item itemvalue="npm.start" />
         <item itemvalue="Node.js.index.js" />
       </list>
     </recent_temporary>
@@ -268,12 +259,12 @@
       <workItem from="1565350028913" duration="6658000" />
       <workItem from="1565483973699" duration="7405000" />
       <workItem from="1565702363896" duration="8746000" />
-      <workItem from="1566114025005" duration="1641000" />
+      <workItem from="1566114025005" duration="1996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100627000" />
+    <option name="totallyTimeSpent" value="100982000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -334,7 +325,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assets/img/React App.htm" />
     <entry file="file://$PROJECT_DIR$/src/assets/css/aboutPage.css" />
     <entry file="file://$PROJECT_DIR$/src/assets/icons/java.svg" />
     <entry file="file://$PROJECT_DIR$/src/components/menuComponent/MenuRow.js" />
@@ -586,11 +576,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Projects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        <state relative-caret-position="3192">
+          <caret line="152" column="116" lean-forward="true" selection-start-line="152" selection-start-column="116" selection-end-line="152" selection-end-column="116" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>

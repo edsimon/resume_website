@@ -150,7 +150,7 @@ class Projects extends Component {
                             totHeight={"300px"}
                             link={"https://github.com/edsimon/openAI_cartPole"}
                             header={"OpenAI cartPole"}
-                            modalInfo={"Machine learning project that uses a deep neural network to learn how to" +
+                            modalInfo={"Machine learning project that uses a deep neural network to learn how to " +
                                         "balance a pole on a cart."}
                             image={cartPole}/> : null}
 
