@@ -64,6 +64,15 @@ body{
     outline: none;
 }
 
+.name{
+    color: whitesmoke;
+    position: absolute;
+    left: 2%;
+    width: 10%;
+    text-align: left;
+    opacity: .7;
+}
+
 .avatar {
     width: 30vh;
 }
@@ -565,6 +574,12 @@ body{
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
+    .name{
+        width: 100%;
+        font-size: 1.2em;
+        opacity: .7;
+    }
+
     .sayHi{
         position: absolute;
         width: 30vw;
