@@ -17,9 +17,21 @@ class Projects extends Component {
             button: "Show all",
             filterSet : new Set(["Java","Python","Machine learning","Application","Swift","Website", "React", "openAi"]),
             haveFilter : false,
-            allItems : ["Java","Python","Machine learning","Application","Swift", "Website", "React", "openAi"]
+            allItems : ["Java","Python","Machine learning","Application","Swift", "Website", "React", "openAi"],
+            width: 0
         }
         this.manageFilter = this.manageFilter.bind(this)
+        this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+    }
+    componentDidMount() {
+        this.updateWindowDimensions();
+        window.addEventListener('resize', this.updateWindowDimensions);
+    }
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.updateWindowDimensions);
+    }
+    updateWindowDimensions() {
+        this.setState({ width: window.innerWidth});
     }
 
     render() {
@@ -108,7 +120,7 @@ class Projects extends Component {
                 <div className="pinCont">
                     <StackGrid
                         className={"pintrestView"}
-                        columnWidth={300}
+                        columnWidth={(this.state.width < 300) ? this.state.width - 50 : 300}
                         duration={500}
                         gutterWidth={20}
                         appearDelay={200}
@@ -171,7 +183,7 @@ class Projects extends Component {
                 <div className="pinCont">
                     <StackGrid
                         className={"pintrestView"}
-                        columnWidth={300}
+                        columnWidth={(this.state.width < 400) ? this.state.width - 80 : 300}
                         duration={500}
                         gutterWidth={20}
                         appearDelay={200}
